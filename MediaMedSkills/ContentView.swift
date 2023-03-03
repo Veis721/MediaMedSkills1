@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var screen = "LogIn"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            if (screen == "LaunchScreen") {
+                LaunchScreen(screen:$screen)
+            } else if (screen == "LaunchScreens"){
+                LaunchScreens(screen:$screen)
+            }
+            else if (screen == "LogIn"){
+                LogIn(screen:$screen)
+            }     else if (screen == "RegIn"){
+                RegIn(screen:$screen)
+            }
+        }
     }
 }
 

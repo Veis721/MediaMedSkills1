@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4667236B29B05171006AF58B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4667236A29B05171006AF58B /* ViewModel.swift */; };
+		4667236E29B051AC006AF58B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4667236D29B051AC006AF58B /* Alamofire */; };
+		4667237029B0562A006AF58B /* RegIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4667236F29B0562A006AF58B /* RegIn.swift */; };
+		4667237329B05E76006AF58B /* CITPincode in Frameworks */ = {isa = PBXBuildFile; productRef = 4667237229B05E76006AF58B /* CITPincode */; };
 		4672BDC429AEFF48005E72C0 /* MediaMedSkillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672BDC329AEFF48005E72C0 /* MediaMedSkillsApp.swift */; };
 		4672BDC629AEFF48005E72C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672BDC529AEFF48005E72C0 /* ContentView.swift */; };
 		4672BDC829AEFF4C005E72C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4672BDC729AEFF4C005E72C0 /* Assets.xcassets */; };
 		4672BDCB29AEFF4C005E72C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4672BDCA29AEFF4C005E72C0 /* Preview Assets.xcassets */; };
+		4672BDD229AF0134005E72C0 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672BDD129AF0134005E72C0 /* LaunchScreen.swift */; };
+		4672BDD429AF02D1005E72C0 /* LaunchScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672BDD329AF02D1005E72C0 /* LaunchScreens.swift */; };
+		4672BDD829AF14B7005E72C0 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672BDD729AF14B7005E72C0 /* LogIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4667236A29B05171006AF58B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4667236F29B0562A006AF58B /* RegIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegIn.swift; sourceTree = "<group>"; };
 		4672BDC029AEFF48005E72C0 /* MediaMedSkills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaMedSkills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4672BDC329AEFF48005E72C0 /* MediaMedSkillsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMedSkillsApp.swift; sourceTree = "<group>"; };
 		4672BDC529AEFF48005E72C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4672BDC729AEFF4C005E72C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4672BDCA29AEFF4C005E72C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4672BDD129AF0134005E72C0 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		4672BDD329AF02D1005E72C0 /* LaunchScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreens.swift; sourceTree = "<group>"; };
+		4672BDD729AF14B7005E72C0 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4667237329B05E76006AF58B /* CITPincode in Frameworks */,
+				4667236E29B051AC006AF58B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +67,13 @@
 			children = (
 				4672BDC329AEFF48005E72C0 /* MediaMedSkillsApp.swift */,
 				4672BDC529AEFF48005E72C0 /* ContentView.swift */,
+				4672BDD129AF0134005E72C0 /* LaunchScreen.swift */,
+				4672BDD329AF02D1005E72C0 /* LaunchScreens.swift */,
+				4672BDD729AF14B7005E72C0 /* LogIn.swift */,
+				4667236F29B0562A006AF58B /* RegIn.swift */,
 				4672BDC729AEFF4C005E72C0 /* Assets.xcassets */,
 				4672BDC929AEFF4C005E72C0 /* Preview Content */,
+				4667236A29B05171006AF58B /* ViewModel.swift */,
 			);
 			path = MediaMedSkills;
 			sourceTree = "<group>";
@@ -83,6 +102,10 @@
 			dependencies = (
 			);
 			name = MediaMedSkills;
+			packageProductDependencies = (
+				4667236D29B051AC006AF58B /* Alamofire */,
+				4667237229B05E76006AF58B /* CITPincode */,
+			);
 			productName = MediaMedSkills;
 			productReference = 4672BDC029AEFF48005E72C0 /* MediaMedSkills.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,10 @@
 				Base,
 			);
 			mainGroup = 4672BDB729AEFF48005E72C0;
+			packageReferences = (
+				4667236C29B051AC006AF58B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4667237129B05E75006AF58B /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */,
+			);
 			productRefGroup = 4672BDC129AEFF48005E72C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4672BDD829AF14B7005E72C0 /* LogIn.swift in Sources */,
+				4667237029B0562A006AF58B /* RegIn.swift in Sources */,
+				4672BDD429AF02D1005E72C0 /* LaunchScreens.swift in Sources */,
 				4672BDC629AEFF48005E72C0 /* ContentView.swift in Sources */,
 				4672BDC429AEFF48005E72C0 /* MediaMedSkillsApp.swift in Sources */,
+				4667236B29B05171006AF58B /* ViewModel.swift in Sources */,
+				4672BDD229AF0134005E72C0 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +371,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4667236C29B051AC006AF58B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4667237129B05E75006AF58B /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Coffee-IT-Development/Pincode-iOS-Component.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4667236D29B051AC006AF58B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4667236C29B051AC006AF58B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4667237229B05E76006AF58B /* CITPincode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4667237129B05E75006AF58B /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */;
+			productName = CITPincode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4672BDB829AEFF48005E72C0 /* Project object */;
 }
