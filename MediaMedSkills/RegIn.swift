@@ -67,13 +67,13 @@ struct RegIn: View {
                     Button {
                         
                     } label: {
-                        Text("Отправить код ")
+                        Text("Отправить код")
                             .multilineTextAlignment(.center)
                             .foregroundColor(.blue)
                     }
                 }
                 else {
-                    Text("Отправить код повторно можно \n будет через \(timeRemaining) секунд")
+                    Text("Отправить код повторно можно \n будет через  \(timeRemaining) секунд")
                         .multilineTextAlignment(.center)
                         .foregroundColor(.gray)
                 }
