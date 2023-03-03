@@ -16,7 +16,7 @@ struct LogIn: View {
             VStack{
                 HStack{
                     Image("Emojies")
-                Text("Добро пожаловать!")
+                Text("Добро пожаловать!   ")
                     .foregroundColor(.black)
                     .multilineTextAlignment(.leading)
                     .font(.system(size: 20))
