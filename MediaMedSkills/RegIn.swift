@@ -67,7 +67,7 @@ struct RegIn: View {
                     Button {
                         
                     } label: {
-                        Text("Отправить код  звново")
+                        Text("Отправить код ")
                             .multilineTextAlignment(.center)
                             .foregroundColor(.blue)
                     }
